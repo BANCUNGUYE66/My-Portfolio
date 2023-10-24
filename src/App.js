@@ -1,13 +1,21 @@
-import { useEffect } from 'react';
-import Aos from 'aos';
-import './App.css';
+import AboutMe from "./components/AboutMe";
+import Home from "./components/Home";
+import NavBar from "./components/NavBar";
+import SocialLinks from "./components/SocialLinks";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
 
 function App() {
-  useEffect(()=>{
-    Aos.init();
-  }, [])
-  return <h1 className="text-indigo-600 text-2xl font-[500]">Hello world</h1>;
+  return (
+  <div>
+    <NavBar/>
+    <Home/>
+    <SocialLinks/>
+    <Portfolio/>
+    <AboutMe/>
+    <Contact/>
+  </div>
+  );
 }
 
 export default App;
-
