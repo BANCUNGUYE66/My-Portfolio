@@ -1,7 +1,7 @@
 import React from 'react';
 import budgetBuddy from '../assets/portfolio/budgetBuddy.png';
 import eduPlanner from '../assets/portfolio/eduPlanner.png';
-import weatherApp from '../assets/portfolio/weatherApp.png';
+import leaderboard from '../assets/portfolio/leaderboard.png';
 import math from '../assets/portfolio/math.png';
 import festival from '../assets/portfolio/festival.png';
 import { FaEye } from 'react-icons/fa';
@@ -23,14 +23,14 @@ const Portfolio = () => {
         title: 'eduPlanner',
         link1: 'https://edu-planner.onrender.com',
         link2: 'https://github.com/BANCUNGUYE66/EduPlanner-Frontend',
-        stack: 'Ruby, Ruby on Rails, RSpec, PostgreSQL'
+        stack: 'React, Ruby on Rails, RSpec, PostgreSQL'
      },
     { id: 4, 
-      src: weatherApp, 
-      text: ' A weather App  using  API to display cities weather and give detail data for every city.',
-      title: 'weather App',
-      link1: 'https://weather-project-app.onrender.com/',
-      link2: 'https://github.com/BANCUNGUYE66/Weather-capstone',
+      src: leaderboard, 
+      text: 'This is a super application. Allows users to record their score, submit and compare with other users scores.',
+      title: 'Leaderboard App',
+      link1: 'https://bancunguye66.github.io/Leaderboard/dist/',
+      link2: 'https://github.com/BANCUNGUYE66/Leaderboard',
       stack: 'Javascript, CSS, HTML'
     },
     { id: 5, 
